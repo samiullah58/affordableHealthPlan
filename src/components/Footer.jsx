@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className=" p-20 py-10 flex flex-col gap-2">
+    <div className=" p-20 py-10 flex flex-col gap-2 md:py-8 md:px-36">
       <div className=" flex justify-between items-center">
         <img
           src="https://affordablehealthplans.org/wp-content/uploads/2023/05/Logo.svg"

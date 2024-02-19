@@ -1,9 +1,9 @@
 import React from 'react'
 
-const CompareHealth = () => {
+const CompareHealth = () => { 
   return (
-    <div className='  grid grid-cols-2 gap-5 px-20 py-10'>
-      <div className=' bg-[#F6F8F7]  rounded-md p-10 text-center w-full '>
+    <div className='  grid grid-cols-2 gap-5 px-20 py-10 md:py-7 md:mt-4 md:px-32'>
+      <div className=' bg-[#F6F8F7]  rounded-2xl p-10 text-center w-full '>
         <h3 className=' text-[30px] font-semibold '>Compare health insurance quotes</h3>
         <h6>
           <span className='text-[#F37111] px-1'>NO OBLIGATION</span>TO ENROLL
@@ -25,7 +25,7 @@ const CompareHealth = () => {
           </div>
         </div>
       </div>
-      <div className='bg-[#F6F8F7]  w-full rounded-md items-center justify-center gap-2  flex flex-col items-center'>
+      <div className='bg-[#F6F8F7]  w-full rounded-2xl justify-center gap-2  flex flex-col items-center'>
         <h3 className='text-[30px] font-semibold'>Or give us a call</h3>
         <h6><span className='text-[#F37111] '>THE EASIER, FASTER </span>WAY TO GET QUOTES</h6>
         <div className=' flex flex-col gap-2 justify-center '>
