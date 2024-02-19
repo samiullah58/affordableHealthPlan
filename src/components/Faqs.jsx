@@ -9,11 +9,7 @@ const AccordionItem = ({ title, children }) => {
       onClick={() => setIsOpen(!isOpen)}
     >
       <div className=" flex justify-between items-center">
-<<<<<<< HEAD
-        <p className="font-semibold text-xl w-full text-left">{title}</p>{' '}
-=======
         <p className="font-semibold md:text-xl text-sm w-full text-left">{title}</p>{' '}
->>>>>>> a64b8f9 (all responsive set)
         <span>
           <svg
             width="16"
@@ -22,27 +18,12 @@ const AccordionItem = ({ title, children }) => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-<<<<<<< HEAD
-            {!isOpen ? (  <path
-=======
             {!isOpen ? (<path
->>>>>>> a64b8f9 (all responsive set)
               class="plus-icon"
               d="M1 1L8 8L15 1"
               stroke="#1C2B33"
               stroke-width="2"
               stroke-linecap="round"
-<<<<<<< HEAD
-            ></path>) : (      <path
-                class="minus-icon"
-                d="M1 9L8 2L15 9"
-                stroke="#9c0e89"
-                stroke-width="2"
-                stroke-linecap="round"
-              ></path>)}
-          
-      
-=======
             ></path>) : (<path
               class="minus-icon"
               d="M1 9L8 2L15 9"
@@ -52,7 +33,6 @@ const AccordionItem = ({ title, children }) => {
             ></path>)}
 
 
->>>>>>> a64b8f9 (all responsive set)
           </svg>
         </span>
       </div>
@@ -126,15 +106,9 @@ const Faqs = () => {
 
   return (
     <div>
-<<<<<<< HEAD
-      <h1 className=" text-center text-[45px] font-bold "> Got Questions?</h1>
-
-      <div className=" flex flex-col w-[90%] mx-auto my-5">
-=======
       <h1 className=" text-center md:text-[45px] text-[30px] font-bold "> Got Questions?</h1>
 
       <div className=" flex flex-col w-[90%] mx-auto my-5 gap-2">
->>>>>>> a64b8f9 (all responsive set)
         {Data.map((item, index) => (
           <AccordionItem key={index} index title={item.title}>
             {item.ans}
