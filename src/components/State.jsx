@@ -21,7 +21,7 @@ const State = () => {
 
         <div className='grid grid-cols-2 py-4 lg:grid-cols-5 gap-x-9 gap-y-4 whitespace-nowrap text-center'>
           {statNames.map((state, index) => (
-            <div className=' p-2 border-[1px]  border-gray-400 hover:bg-pink-700 hover:text-white rounded-md px-4 text font-Montserrat font-sans-serif' key={index}>
+            <div className=' p-3 border-[1px]  border-gray-400 hover:bg-pink-700 hover:text-white rounded-md px-2 text-sm' key={index}>
               {state}
             </div>
           ))}

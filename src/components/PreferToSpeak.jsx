@@ -7,7 +7,7 @@ const PreferToSpeak = () => {
         <h2 className="  text-[35px] hidden md:block font-bold text-center">
           Prefer to speak with an expert?
         </h2>
-        <h2 className=" block md:hidden text-[20px] font-bold text-center">
+        <h2 className=" block md:hidden text-[20px] font-bold text-center whitespace-nowrap">
           To shop over the phone call
         </h2>
         <h6 className=" text-[22px] md:text-[20px] hidden md:block  mt-2 text-center ">
