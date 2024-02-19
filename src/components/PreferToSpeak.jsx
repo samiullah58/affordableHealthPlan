@@ -7,7 +7,7 @@ const PreferToSpeak = () => {
         <h2 className="  text-[35px] hidden md:block font-bold text-center">
           Prefer to speak with an expert?
         </h2>
-        <h2 className=" block md:hidden text-[22px] font-bold text-center">
+        <h2 className=" block md:hidden text-[20px] font-bold text-center">
           To shop over the phone call
         </h2>
         <h6 className=" text-[22px] md:text-[20px] hidden md:block  mt-2 text-center ">
@@ -15,14 +15,13 @@ const PreferToSpeak = () => {
           plan that's right for you.
         </h6>
       </div>
-      <div className=' flex flex-col gap-5 my-10'>
-        {' '}
+      <div className=' flex flex-col gap-5 my-5 md:my-10'>
         <a href="tel: 1-844-679-6803">
-          <button className=" flex justify-center items-center px-10 py-4 rounded-md bg-pink-600 hover:bg-pink-700 hover:text-white" type="button">
-            <span> <img className=' h10 w-10' src="https://affordablehealthplans.org/wp-content/uploads/2023/04/phone_white_200x200.gif" alt="" srcset="" /> </span>1-844-679-6803
+          <button className="font-sans font-semibold flex justify-center items-center px-7 py-3  hover:bg-pink-800 rounded-md bg-pink-700 text-white text-xl" type="button">
+            <span> <img className=' h-10 w-10' src="https://affordablehealthplans.org/wp-content/uploads/2023/04/phone_white_200x200.gif" alt="" srcset="" /> </span>1-844-679-6803
           </button>
         </a>
-        <div className=' flex justify-center items-center gap-2'> <img className=' h-5 w-5' src="https://affordablehealthplans.org/wp-content/uploads/2023/04/pulse_120x120.gif" alt="" /> <p>Call for free live assistance</p></div>
+        <div className=' flex justify-center items-center gap-2'> <img className=' h-5 w-5' src="https://affordablehealthplans.org/wp-content/uploads/2023/04/pulse_120x120.gif" alt="" /> <p className='text-sm'>Call for free live assistance</p></div>
       </div>
     </div>
   )

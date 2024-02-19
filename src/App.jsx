@@ -1,5 +1,5 @@
 
-import './App.css'
+import './index.css'
 import CompareHealth from './components/CompareHealth'
 import Faqs from './components/Faqs'
 import Footer from './components/Footer'

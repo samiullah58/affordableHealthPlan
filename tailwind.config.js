@@ -2,6 +2,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Montserrat', 'sans-serif'], // Define Montserrat as the default sans-serif font
+      },
       screens: {
         'xs': '360px', // custom breakpoint for extra small screens
         'sm': '640px', // small screen
