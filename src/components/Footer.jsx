@@ -2,7 +2,11 @@ import React from 'react'
 
 const Footer = () => {
   return (
+<<<<<<< HEAD
     <div className=" p-20 py-10 flex flex-col gap-2 md:py-8 md:px-36">
+=======
+    <div className=" px-4 py-10 flex flex-col gap-2 w-[90%] mx-auto md:w-[81%]">
+>>>>>>> a64b8f9 (all responsive set)
       <div className=" flex justify-between items-center">
         <img
           src="https://affordablehealthplans.org/wp-content/uploads/2023/05/Logo.svg"
@@ -30,12 +34,21 @@ const Footer = () => {
         eligibility and to request a copy of the applicable policy.
         affordablehealthplans.org is not affiliated with or endorsed by the
         United States government or the federal Medicare program. By using this
+<<<<<<< HEAD
         site, you acknowledge that you have read and agree to the Terms of
         Service. and Privacy Policy.
       </p>
       <p>
         We are committed to protect your privacy. If you do not want to share
         your information please click on Do Not Sell My Personal Information for
+=======
+        site, you acknowledge that you have read and agree to the <a className=' underline underline-offset-2' href="http://google.com">Terms of
+          Service</a>. and <a className=' underline underline-offset-2' href="http://google.com">Privacy Policy</a>.
+      </p>
+      <p>
+        We are committed to protect your privacy. If you do not want to share
+        your information please click on <a className=' underline underline-offset-2' href="http://google.com">Do Not Sell My Personal Information</a>  for
+>>>>>>> a64b8f9 (all responsive set)
         more details
       </p>
       <hr className=" my-5" />
