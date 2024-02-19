@@ -108,7 +108,7 @@ const Faqs = () => {
     <div>
       <h1 className=" text-center text-[45px] font-bold "> Got Questions?</h1>
 
-      <div className=" flex flex-col w-[90%] mx-auto gap-5 my-5">
+      <div className=" flex flex-col w-[90%] mx-auto my-5">
         {Data.map((item, index) => (
           <AccordionItem key={index} index title={item.title}>
             {item.ans}
