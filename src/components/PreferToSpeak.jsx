@@ -10,7 +10,7 @@ const PreferToSpeak = () => {
         <h2 className=" block md:hidden text-[22px] font-bold text-center">
           To shop over the phone call
         </h2>
-        <h6 className=" text-[22px] hidden md:block   mt-2 text-center">
+        <h6 className=" text-[22px] md:text-[20px] hidden md:block  mt-2 text-center ">
           Speak with a licensed agent and get knowledgeable advice on choosing a
           plan that's right for you.
         </h6>

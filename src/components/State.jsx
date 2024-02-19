@@ -11,29 +11,6 @@ const State = () => {
   ];
   return (
     <div className=" bg-[#F6F8F7] m-4 sm:m-10 p-6 sm:p-10 rounded-2xl md:py-16 md:mt-4 md:mx-32">
-<<<<<<< HEAD
-    <div className=" flex flex-col">
-      <h2 className="  text-[35px] font-bold text-center text-gray-700">
-      Click your state below
-      </h2>
-      <h6 className=" text-[20px]   mt-2  text-center">
-      To get FREE health plan quotes & save!
-      </h6>
-
-      <div className='grid grid-cols-5 gap-x-9 gap-y-4 px-40 py-6 whitespace-nowrap text-center'>
-      {statNames.map((state, index) => (
-        <div className=' p-2 border-[1px]  border-gray-400 hover:bg-pink-700 hover:text-white rounded-md px-4 text font-Montserrat font-sans-serif' key={index}>
-          {state}
-        </div>
-      ))}
-      </div>
-    </div>
-
-
-
-  
-  </div>
-=======
       <div className=" flex flex-col">
         <h2 className="  text-[35px] font-bold text-center text-gray-700">
           Click your state below
@@ -55,7 +32,6 @@ const State = () => {
 
 
     </div>
->>>>>>> a64b8f9 (all responsive set)
   )
 }
 
