@@ -6,7 +6,7 @@ const CompareHealth = () => {
       <div className=' bg-[#F6F8F7]  rounded-md md:p-10 p-5 text-center w-full'>
         <h3 className=' md:text-[30px] text-[24px] font-bold '>Compare health insurance quotes</h3>
         <h6>
-          <span className='text-[#F37111] px-1'>NO OBLIGATION</span>TO ENROLL
+          <span className='text-[#e011f3] px-1'>NO OBLIGATION</span>TO ENROLL
         </h6>
         <div className=" flex md:flex-row flex-col gap-4 justify-center my-6 ">
           <div className="flex items-center justify-between border  px-4 py-2 rounded-[10px] bg-white ">
@@ -32,7 +32,7 @@ const CompareHealth = () => {
       </div>
       <div className='bg-[#F6F8F7]  w-full rounded-md items-center justify-center gap-2 py-4  flex flex-col'>
         <h3 className='md:text-[30px] text-[24px] font-bold'>Or give us a call</h3>
-        <h6><span className='text-[#F37111] '>THE EASIER, FASTER </span>WAY TO GET QUOTES</h6>
+        <h6><span className='text-[#e011f3] '>THE EASIER, FASTER </span>WAY TO GET QUOTES</h6>
         <div className=' flex flex-col gap-2 justify-center '>
           {' '}
           <a href="tel: 1-844-679-6803">
